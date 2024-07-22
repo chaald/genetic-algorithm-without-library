@@ -1,47 +1,41 @@
 # genetic-algorithm-without-library
-This project implements a Genetic Algorithm (GA) from scratch to solve optimization problems without relying on any external libraries.
+Proyek ini mengimplementasikan Algoritma Genetika (GA) dari awal untuk menyelesaikan masalah optimasi tanpa bergantung pada library eksternal.
 
-***Project Description***
+## Deskripsi Proyek
 
-This project is the final assignment for the Artificial Intelligence course. The goal is to implements a Genetic Algorithm (GA) from scratch to solve optimization problems without relying on any external libraries. The GA is used to find the optimal solution for a mathematical function using a population of potential solutions. The algorithm includes key components such as initialization, selection, crossover, mutation, and replacement.
+Proyek ini adalah tugas akhir untuk mata kuliah Kecerdasan Buatan. Tujuannya adalah mengimplementasikan Algoritma Genetika (GA) dari awal untuk menyelesaikan masalah optimasi tanpa bergantung pada library eksternal. GA digunakan untuk menemukan solusi optimal untuk suatu fungsi matematis menggunakan populasi solusi potensial. Algoritma ini mencakup komponen kunci seperti inisialisasi, seleksi, crossover, mutasi, dan penggantian.
 
-***Features***
-- Initialization: Generates an initial population of binary chromosomes.
-- Fitness Calculation: Evaluates the fitness of chromosomes based on a custom mathematical function.
-- Selection: Uses tournament selection to choose parents for the next generation.
-- Crossover: Applies single-point crossover to produce offspring from parents.
-- Mutation: Mutates chromosomes with a specified probability to maintain diversity.
-- Survivor Selection: Selects the best individuals to form the next generation.
+## Fitur
+- Inisialisasi: Menghasilkan populasi awal dari kromosom biner.
+- Perhitungan Fitness: Mengevaluasi fitness kromosom berdasarkan fungsi matematis khusus.
+- Seleksi: Menggunakan seleksi turnamen untuk memilih orang tua bagi generasi berikutnya.
+- Crossover: Menerapkan crossover satu titik untuk menghasilkan keturunan dari orang tua.
+- Mutasi: Memutasi kromosom dengan probabilitas tertentu untuk mempertahankan keragaman.
+- Seleksi Survivor: Memilih individu terbaik untuk membentuk generasi berikutnya.
 
-***Table of Contents***
-- Usage
-- Algorithm Details
-	- Initialization
-	- Fitness Function
-	- Selection
+## Daftar Isi
+- Penggunaan
+- Detail Algoritma
+	- Inisialisasi
+	- Fungsi Fitness
+	- Seleksi
 	- Crossover
-	- Mutation
-	- Survivor Selection
-- Results
+	- Mutasi
+ 	- Seleksi Survivor
+- Hasil
 
-***Usage***
-1. Save the provided code into a file
-2. Run the code
+## Penggunaan
+1. Simpan kode yang disediakan ke dalam sebuah file.
+2. Jalankan kode tersebut.
 
-***Algorithm Details***
-1. Initialization
-The algorithm starts by initializing a population of binary chromosomes. Each chromosome represents potential solutions in the search space.
-2. Fitness Function
-The fitness of each chromosome is evaluated using a mathematical function. The goal is to minimize this function, so fitness is defined as the reciprocal of the function value.
-3. Selection
-Tournament selection is used to choose parents for the next generation. A subset of individuals is randomly selected, and the best individuals within this subset are chosen as parents.
-4. Crossover
-Single-point crossover is applied to create offspring from two parent chromosomes. A crossover point is randomly chosen, and the genetic material is exchanged between parents.
-5. Mutation
-Mutation is performed on offspring with a specified probability to introduce genetic diversity. Each bit in the chromosome has a chance of being flipped.
-6. Survivor Selection
-The new generation of chromosomes is formed by selecting the best individuals from the combined population of parents and offspring.
+## Detail Algoritma
+- Inisialisasi: Algoritma dimulai dengan menginisialisasi populasi kromosom biner. Setiap kromosom mewakili solusi potensial dalam ruang pencarian.
+- Fungsi Fitness: Fitness setiap kromosom dievaluasi menggunakan fungsi matematis. Tujuannya adalah meminimalkan fungsi ini, sehingga fitness didefinisikan sebagai kebalikan dari nilai fungsi.
+- Seleksi: Seleksi turnamen digunakan untuk memilih orang tua bagi generasi berikutnya. Sebuah subset individu dipilih secara acak, dan individu terbaik dalam subset ini dipilih sebagai orang tua.
+- Crossover: Crossover satu titik diterapkan untuk membuat keturunan dari dua kromosom orang tua. Titik crossover dipilih secara acak, dan materi genetik dipertukarkan antara orang tua.
+- Mutasi: Mutasi dilakukan pada keturunan dengan probabilitas tertentu untuk memperkenalkan keragaman genetik. Setiap bit dalam kromosom memiliki kemungkinan untuk dibalik.
+- Seleksi Survivor: Generasi baru kromosom dibentuk dengan memilih individu terbaik dari populasi gabungan orang tua dan keturunan.
 
-***Results***
+## Hasil
 
-The script prints the fitness value of the best chromosome found, along with the corresponding values of x1 and x2. The results show the best solution found after running the genetic algorithm for the specified number of generations.
+Skrip mencetak nilai fitness dari kromosom terbaik yang ditemukan, bersama dengan nilai x1 dan x2 yang sesuai. Hasil menunjukkan solusi terbaik yang ditemukan setelah menjalankan algoritma genetika selama jumlah generasi yang ditentukan.
